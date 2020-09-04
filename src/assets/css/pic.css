@@ -1,0 +1,40 @@
+body{
+background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.h1-Font{
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: bolder;
+}
+
+.imgsrc{
+    width: 350px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 15px 50px;
+    
+}
+
+
+
+.imgsrc:hover {
+    opacity: 1.0;
+     transform:rotate(3.5deg);
+  -ms-transform:rotate(3.5deg); /* IE 9 */
+  -moz-transform:rotate(3.5deg); /* Firefox */
+  -webkit-transform:rotate(5.5deg); /* Safari and Chrome */
+  -o-transform:rotate(3.5deg); /* Opera */
+  }
+
+  .btn{
+      padding-left: 10px;
+
+  }
+
+
+  
